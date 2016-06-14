@@ -1,0 +1,249 @@
+\begin{thebibliography}{10}
+
+\bibitem{a}
+The android open source project.
+\newblock \url{https://source.android.com/}.
+
+\bibitem{h}
+Patterns: Permissions.
+\newblock \url{https://www.google.com/design/spec/patterns/permissions.html#}.
+
+\bibitem{b}
+Market share statistics for internet technologies; mobile/tablet operating
+  system market share.
+\newblock
+  \url{https://www.netmarketshare.com/operating-system-market-share.aspx?qprid=8&qpcustomd=1},
+  2016.
+
+\bibitem{arzt2014flowdroid}
+Steven Arzt, Siegfried Rasthofer, Christian Fritz, Eric Bodden, Alexandre
+  Bartel, Jacques Klein, Yves Le~Traon, Damien Octeau, and Patrick McDaniel.
+\newblock Flowdroid: Precise context, flow, field, object-sensitive and
+  lifecycle-aware taint analysis for android apps.
+\newblock In {\em ACM SIGPLAN Notices}, volume~49, pages 259--269. ACM, 2014.
+
+\bibitem{au2012pscout}
+Kathy Wain~Yee Au, Yi~Fan Zhou, Zhen Huang, and David Lie.
+\newblock Pscout: analyzing the android permission specification.
+\newblock In {\em Proceedings of the 2012 ACM conference on Computer and
+  communications security}, pages 217--228. ACM, 2012.
+
+\bibitem{aziz2012android}
+Benjamin Aziz and Mario Tejedor-Gonzalez.
+\newblock An android pgp manager: towards bridging end-user cryptography to
+  smart phones.
+\newblock {\em International Journal of Security}, 6(5), 2012.
+
+\bibitem{barrera2010methodology}
+David Barrera, H~G{\"u}ne{\c{s}} Kayacik, Paul~C van Oorschot, and Anil
+  Somayaji.
+\newblock A methodology for empirical analysis of permission-based security
+  models and its application to android.
+\newblock In {\em Proceedings of the 17th ACM conference on Computer and
+  communications security}, pages 73--84. ACM, 2010.
+
+\bibitem{bugiel2013flexible}
+Sven Bugiel, Stephan Heuser, and Ahmad-Reza Sadeghi.
+\newblock Flexible and fine-grained mandatory access control on android for
+  diverse security and privacy policies.
+\newblock In {\em Usenix security}, pages 131--146, 2013.
+
+\bibitem{f}
+Windows~Dev Center.
+\newblock Msdn, the app certification process.
+\newblock
+  \url{https://msdn.microsoft.com/en-us/windows/uwp/publish/the-app-certification-process}.
+
+\bibitem{chan2012droidchecker}
+Patrick~PF Chan, Lucas~CK Hui, and Siu-Ming Yiu.
+\newblock Droidchecker: analyzing android applications for capability leak.
+\newblock In {\em Proceedings of the fifth ACM conference on Security and
+  Privacy in Wireless and Mobile Networks}, pages 125--136. ACM, 2012.
+
+\bibitem{k}
+Android Developers.
+\newblock Android developers: Dashboards.
+\newblock \url{http://developer.android.com/about/dashboards/index.html}.
+
+\bibitem{g}
+Android Developers.
+\newblock Publishing overview.
+\newblock
+  \url{http://developer.android.com/tools/publishing/publishing_overview.html}.
+
+\bibitem{enck2009understanding}
+William Enck, Machigar Ongtang, and Patrick McDaniel.
+\newblock Understanding android security.
+\newblock {\em IEEE security \& privacy}, (1):50--57, 2009.
+
+\bibitem{d}
+Patrick Feisthammel.
+\newblock Pgp: Explanation of the web of trust of pgp.
+\newblock \url{https://www.rubin.ch/pgp/weboftrust.en.html}, 2004.
+
+\bibitem{felt2011android}
+Adrienne~Porter Felt, Erika Chin, Steve Hanna, Dawn Song, and David Wagner.
+\newblock Android permissions demystified.
+\newblock In {\em Proceedings of the 18th ACM conference on Computer and
+  communications security}, pages 627--638. ACM, 2011.
+
+\bibitem{felt2012android}
+Adrienne~Porter Felt, Elizabeth Ha, Serge Egelman, Ariel Haney, Erika Chin, and
+  David Wagner.
+\newblock Android permissions: User attention, comprehension, and behavior.
+\newblock In {\em Proceedings of the Eighth Symposium on Usable Privacy and
+  Security}, page~3. ACM, 2012.
+
+\bibitem{gilbert2011vision}
+Peter Gilbert, Byung-Gon Chun, Landon~P Cox, and Jaeyeon Jung.
+\newblock Vision: automated security validation of mobile apps at app markets.
+\newblock In {\em Proceedings of the second international workshop on Mobile
+  cloud computing and services}, pages 21--26. ACM, 2011.
+
+\bibitem{grace2011detecting}
+Michael Grace, Yajin Zhou, Zhi Wang, and Xuxian Jiang.
+\newblock Detecting capability leaks in android-based smartphones.
+\newblock Technical report, Technical Report North Carolina State University,
+  2011.
+
+\bibitem{grace2012systematic}
+Michael~C Grace, Yajin Zhou, Zhi Wang, and Xuxian Jiang.
+\newblock Systematic detection of capability leaks in stock android
+  smartphones.
+\newblock In {\em NDSS}, 2012.
+
+\bibitem{harbach2014using}
+Marian Harbach, Markus Hettig, Susanne Weber, and Matthew Smith.
+\newblock Using personal examples to improve risk communication for security \&
+  privacy decisions.
+\newblock In {\em Proceedings of the 32nd annual ACM conference on Human
+  factors in computing systems}, pages 2647--2656. ACM, 2014.
+
+\bibitem{e}
+Apple Inc.
+\newblock ios developer library-app distribution guide.
+\newblock
+  \url{https://developer.apple.com/library/ios/documentation/IDEs/Conceptual/AppDistributionGuide/SubmittingYourApp/SubmittingYourApp.html}.
+
+\bibitem{kelley2012conundrum}
+Patrick~Gage Kelley, Sunny Consolvo, Lorrie~Faith Cranor, Jaeyeon Jung, Norman
+  Sadeh, and David Wetherall.
+\newblock A conundrum of permissions: installing applications on an android
+  smartphone.
+\newblock In {\em Financial Cryptography and Data Security}, pages 68--79.
+  Springer, 2012.
+
+\bibitem{kelley2013privacy}
+Patrick~Gage Kelley, Lorrie~Faith Cranor, and Norman Sadeh.
+\newblock Privacy as part of the app decision-making process.
+\newblock In {\em Proceedings of the SIGCHI Conference on Human Factors in
+  Computing Systems}, pages 3393--3402. ACM, 2013.
+
+\bibitem{j}
+Alex Kinsella.
+\newblock How to submit your apps for blackberry 10.
+\newblock
+  \url{http://devblog.blackberry.com/2012/10/submit-apps-blackberry-10/l}.
+
+\bibitem{lin2014modeling}
+Jialiu Lin, Bin Liu, Norman Sadeh, and Jason~I Hong.
+\newblock Modeling users’ mobile app privacy preferences: Restoring usability
+  in a sea of permission settings.
+\newblock In {\em Symposium On Usable Privacy and Security (SOUPS 2014)}, pages
+  199--212, 2014.
+
+\bibitem{mcdaniel2012bloatware}
+Patrick McDaniel.
+\newblock Bloatware comes to the smartphone.
+\newblock {\em IEEE Security \& Privacy}, (4):85--87, 2012.
+
+\bibitem{aa}
+T.~Moynihan.
+\newblock Wired: Apps snoop on your location way more than you think.
+\newblock \url{http://www.wired.com/2015/03/apps-snoop-location-way-think/},
+  2015.
+
+\bibitem{u}
+P.~Nickinson.
+\newblock Android central: Rovio explains new permissions in angrybirds seasons
+  update.
+\newblock
+  \url{http://www.androidcentral.com/rovio-explains-newpermissions-angry-birds-seasons-update},
+  2014.
+
+\bibitem{nissenbaum2004privacy}
+Helen Nissenbaum.
+\newblock Privacy as contextual integrity.
+\newblock {\em Wash. L. Rev.}, 79:119, 2004.
+
+\bibitem{w}
+A.~Russakovskii.
+\newblock Rovio explains why the sms permission was introduced in angry birds
+  v1.5.1.
+\newblock
+  \url{http://www.androidpolice.com/2011/02/06/rovio-explainswhy-the-sms-permission-was-introduced-in-angry-birds-v1-5-1/},
+  2011.
+
+\bibitem{saint201050}
+N~Saint.
+\newblock 50\% of android apps with internet access that ask for your location
+  send it to advertisers, 2010.
+
+\bibitem{spreitzenbarth2013mobile}
+Michael Spreitzenbarth, Felix Freiling, Florian Echtler, Thomas Schreck, and
+  Johannes Hoffmann.
+\newblock Mobile-sandbox: having a deeper look into android applications.
+\newblock In {\em Proceedings of the 28th Annual ACM Symposium on Applied
+  Computing}, pages 1808--1815. ACM, 2013.
+
+\bibitem{mil}
+Statistica.
+\newblock Number of apps available in leading app stores as at july 2015.
+\newblock
+  \url{http://www.statista.com/statistics/276623/number-of-apps-available-in-leading-app-stores/},
+  2016.
+
+\bibitem{stevens2013asking}
+Ryan Stevens, Jonathan Ganz, Vladimir Filkov, Premkumar Devanbu, and Hao Chen.
+\newblock Asking for (and about) permissions used by android apps.
+\newblock In {\em Proceedings of the 10th Working Conference on Mining Software
+  Repositories}, pages 31--40. IEEE Press, 2013.
+
+\bibitem{vidas2011curbing}
+Timothy Vidas, Nicolas Christin, and Lorrie Cranor.
+\newblock Curbing android permission creep.
+\newblock In {\em Proceedings of the Web}, volume~2, pages 91--96, 2011.
+
+\bibitem{wei2012permission}
+Xuetao Wei, Lorenzo Gomez, Iulian Neamtiu, and Michalis Faloutsos.
+\newblock Permission evolution in the android ecosystem.
+\newblock In {\em Proceedings of the 28th Annual Computer Security Applications
+  Conference}, pages 31--40. ACM, 2012.
+
+\bibitem{wijesekera2015android}
+Primal Wijesekera, Arjun Baokar, Ashkan Hosseini, Serge Egelman, David Wagner,
+  and Konstantin Beznosov.
+\newblock Android permissions remystified: a field study on contextual
+  integrity.
+\newblock In {\em 24th USENIX Security Symposium (USENIX Security 15)}, pages
+  499--514, 2015.
+
+\bibitem{yang2014intentfuzzer}
+Kun Yang, Jianwei Zhuge, Yongke Wang, Lujue Zhou, and Haixin Duan.
+\newblock Intentfuzzer: detecting capability leaks of android applications.
+\newblock In {\em Proceedings of the 9th ACM symposium on Information, computer
+  and communications security}, pages 531--536. ACM, 2014.
+
+\bibitem{zhang2016life}
+Xiao Zhang, Kailiang Ying, Yousra Aafer, Zhenshen Qiu, and Wenliang Du.
+\newblock Life after app uninstallation: Are the data still alive? data residue
+  attacks on android.
+\newblock 2016.
+
+\bibitem{zhou2012hey}
+Yajin Zhou, Zhi Wang, Wu~Zhou, and Xuxian Jiang.
+\newblock Hey, you, get off of my market: Detecting malicious apps in official
+  and alternative android markets.
+\newblock In {\em NDSS}, 2012.
+
+\end{thebibliography}

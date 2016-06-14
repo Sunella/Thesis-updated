@@ -1,0 +1,142 @@
+
+\chapter*{Acronyms}
+\addcontentsline{toc}{chapter}{Acronyms}  
+\begin{itemize}
+\item[] OS \tab \tab Operating System
+\item[] AOSP \tab \tab Android Open Source Project
+\item[] Android L \tab Android Lollipop
+\item[] Android M \tab Android Marshmallow
+\item[] SDK \tab \tab Software Development Kit
+\item[] XML \tab \tab Extensible Markup Language
+\item[] PGP \tab \tab Pretty Good Privacy
+\item[] GPS \tab \tab Global Positioning System
+\item[] WiFi \tab \tab Wireless Fidelity
+\item[] SSID \tab \tab Service Set Identifier
+\item[] RIM \tab \tab Research In Motion
+\item[] UID \tab \tab User Identifier
+\item[] PIN \tab \tab Personal Identification Number
+\item[] UI \tab \tab User Interface
+\item[] URL \tab \tab Uniform Resource Locator
+\end{itemize}
+
+\chapter{Introduction} \label{cha:intro}
+\section{Preamble}
+
+Android is an open source mobile operating system currently developed and maintained by Google Inc. It was first developed as an advanced operating system for digital cameras, by a team of engineers in Palo Alto, California, and was acquired by Google in 2005. The Android Open Source Project(AOSP) is the collective name for the Linux kernel, middleware components and  applications which form the Android Operating System \cite{a}. Analysis of global smartphone market share indicates that as at March 2016, Android with a market share of 60.99\% is the leading mobile operating system with a lead of 29.23\% over the next most popular operating system, iOS(market share 31.76\%)\cite{b}.
+\smallskip
+
+The current version of Android is Android 6.0 M (or Marshmallow), with the SDK version 23. Versions are traditionally named alphabetically after desserts; starting from Cupcake, Doughnut, Eclair to the most recent versions; KitKat, Lollipop and Marshmallow. Each release provides an upgraded version of the OS in terms of software, performance, functionality, features, security and privacy etc.
+\smallskip
+
+Users of the Android platform can install "Applications" of different types from digital distribution platforms such as Google Play, Amazon Appstore, SlideME, Mobango etc. As at July 2015, Google's own online marketplace for applications, Google Play, had more then 1.6 million different applications available for download\cite{mil}. Through Google Play, developers can publish and distribute their applications to users of Android compatible smart-phones. When uploading applications, developers are expected to specify which critical resources their applications will need access to in an XML file called the Android Manifest, which is typically found in the root folder of every Android application. Users are required to grant permission for this resource access either before installation(in versions older than Android 5.0) or during runtime(in Android 6.0 and newer devices). 
+
+\section{Background to the Problem}
+
+Users of Android applications are expected to decide on how an application will be allowed to use data without a prior guideline to act as an indicator\cite{felt2011android}. Users are asked to make privacy decisions before they start using the application, at which time they are not equipped with enough knowledge to do so. Up to Android version 5.0(Lollipop) permissions follow a "Do or Die" model, where users are required to grant all the required permissions at install time. Permissions could not be selected or removed individually and choosing not to grant a permission resulted in the application download being canceled. Once installed, app permissions cannot be revoked.
+\smallskip 
+
+In versions newer than Android 6.0(Marshmallow) users are allowed to install applications granting selective privacy options, which can later be toggled depending on individual needs. This has mitigated problems that existed in previous versions where users were not given the opportunity to revoke permissions that have already been granted, or choose to grant permission only when required etc. Permissions have been classified based on how "dangerous" they are and certain types of permissions are granted automatically, while other types have to be approved by a user at runtime. The Android framework is built on a Linux kernel, and each application is assigned a UID(Linux User ID) upon installation. Permission requests are connected to the UID, which provides process isolation.
+\smallskip
+
+
+
+Similar situations with privacy on the internet has brought forth standards such as PGP(Pretty Good Privacy), the concepts of which include "Web of Trust". A Web of Trust is a cryptographic term for a security model where participants authenticate the identity of fellow users.The model in its simplest form is used by social networks including Facebook, LinkedIn and Google+ for user validation and networking\cite{d}. In the context of Android security, there are research applying PGP principles to secure message passing, but not for Application permission privacy configuration\cite{aziz2012android}. 
+\smallskip
+
+Android applications require users to approve a list of permissions that will be accessible by the app before installation. This is a shortcoming in an operating system with such a wide user base as users are not equipped with enough knowledge to make a decision, which leads to making uninformed decisions and compromising their own privacy later on since they have no guideline or benchmark available as an indication of how an application will use data once it is downloaded with the necessary permissions granted. Application ratings can be given by users on most marketplaces including Google PlayStore, but this is based on a host of factors which may or may not have taken privacy and security into consideration.
+
+\section{Problem Statement}
+
+\subsection{Privacy and Security}
+
+Privacy and security, although related are different concepts. Privacy is subjective; the user can decide on how private they want their data to be.However security is objective; it is concerned with 'guarding' something that is universally accepted as confidential, such as password, credit card details, pin number etc.
+\smallskip
+
+Due to uninformed privacy decisions taken by users when installing apps, both privacy and security are compromised. However security is primarily threatened through malware apps which access permissions without authority, whereas privacy is compromised through users unknowingly granting permissions for applications which then misuse these privileges. Therefore we will be concentrating on privacy violations that occur through permissions which have been granted by users, as there are many research currently focused on malicious code detection and improved security of Android applications.
+\smallskip
+
+Users have different needs with regard to privacy, which is why they should be allowed to make their own decisions. Therefore a centralized monitoring system which blocks each privacy infraction would not be ideal since Android does not have information to predict what each user wants beforehand. Privacy infractions are therefore more difficult to predict than security threats, since user preferences also have to be taken into account. Therefore an ideal solution would be to let the users make their own decisions, while providing enough information for them to do so. In the Android platform, users are allowed to make decisions upto a certain extent, but these decisions are usually uninformed since there is no indicator as to what level of privacy will be provided by an application beforehand.
+
+\subsection{Comparison of Application Approval Process}
+
+The leading mobile operating systems apart from Android are iOS by Apple, Windows Mobile and BlackBerry OS. Each of these have different processes and methodologies for developers to follow before submitting an application to the store. A comparison between application submission processes for these platforms shows that each has a centralized process for validation and/or verifying an application before it is made available for users to download. However these processes are usually in place for checking security or applications, and not privacy related issues. 
+\smallskip
+
+To submit an application to iTunes, the marketplace for iOS applications, the developer is first required to create an App ID and a Distribution Provisioning Profile and then  submit an application through iTunes connect with detailed information on the app.Three different certificates have to be submitted along with the application; the Distribution Certificate, Push Notification Certificate and Mobile Provisioning Certificate. The app has to be submitted through the Publication Center, where a checklist of complying standards that need to be adhered to has to be filled in.The approval process on average takes six days to one week.\cite{e}
+\smallskip
+
+Windows store applications also go through a centralized process before being released. A submission has to be created for each application with a checklist of information. Once the submission is complete and the application has been preprocessed without errors, it is submitted for certification through the Windows Certification Kit. The certification process focuses on three core areas; security tests, technical compliance tests and content compliance tests. The amount of time taken for an application to receive approval fluctuates based factors such as the code and logic complexity, visual content, rating of the developer, other applications in the queue etc. Applications which fail the certification process will be returned with a report indicating where the compliance standards were not met. Developers are allowed to resubmit applications following the same process.\cite{f}
+\smallskip
+
+RIM(Research In Motion) BlackBerry requires developers to submit applications for a complex process of reviewing, testing and "readying for publication" before being awarded a Approved/Up For Sale rating. Apps with this rating can be submitted and released on the BlackBerry marketplace; BlackBerry App World.\cite{j} 
+\smallskip
+
+Android developers add applications to marketplaces including Google PlayStore, Amazon AppStore, GetJar, SlideMe and F-Droid, which can then be downloaded by users. The problem lies in there being no centralized security measurement for applications on such marketplaces. Developers are trusted to prepare an application for release and then release it through a marketplace, email or website.\cite{g} The Android operating system imposes some security and privacy restrictions, including an install-time permission system, where each application declares what permissions it requires upon installation.\cite{h} This can provide users with control over their privacy since the choice to cancel installation lies with the user.
+
+\subsection{Permission Issues Before Android 6.0}
+Up to Android version 5 (Lollipop),users were not given an option to choose which permissions to grant upon application installation. Android v6 (Marshmallow) allows granting and revoking certain permissions upon installation, however, this model is not perfect, and even though it has been almost a year since Marshmallow was launched, it is only running on around 2.3\% of Android devices. \cite{k} The current “all or nothing” model forces users to either refrain from installing an application (no permissions granted) or to grant all permissions requested by an application. This can create problems since studies have shown that users tend to ignore the “grant permission” dialog since they have no choice except to avoid installing the app altogether. \cite{wijesekera2015android} The issue exists for inbuilt applications as well (most of which are classifiable as “bloatware” \cite{mcdaniel2012bloatware} ), for example the Flashlight application inbuilt on devices running HTC’s Android based Sense UI, requests all permissions that can be granted to an application, and since the app is inbuilt there is no way to uninstall/disable it other than rooting the device. 
+
+\subsection{Context of Permission Requests}
+In the latest version of Android, Marshmallow, permissions can be toggled. However some issues still exist. 
+\smallskip
+
+Research has shown that over 75\% of permission requests rake place while the application is running in the foreground, background or as a service\cite{wijesekera2015android}. The context of a permission access, or specifically the time a permission is requested by an application can contribute towards finding whether the request is legitimate. For example research has further shown that the GPS lication indicator is only visible for 0.04\% of all location access, whereas in reality applications use other permissions such as WifiState to determine the location if a device through SSID information or network tower location. Data collected through such requests breach users privacy and are used for purposes such as targeted marketing \cite{saint201050}.
+\smallskip
+
+Research has shown that people are moved to base decisions on what they perceive as the reason for an application to access data\cite{wijesekera2015android}. This may negatively affect the revenue generation model of some applications, since legitimate permission requests, sometimes connected to the revenue generation model of an application, are denied by users who assume that the request malicious. This has affected applications such as AngryBirds, where users have denied the SMS permission to the app, resulting in a failure to unlock levels users have paid for with in-app purchase payments, and even Google's own Google+ application, where thumbnails and images become invisible to users who choose not to grant the Storage permission\cite{u} \cite{w}.
+\smallskip
+
+In an ideal situation a user should know why an application is requesting a particular permission; as part of its core functionality, secondary functionality or as a method of revenue generation. However, this is not possible with the current model, since the level of information made available to users regarding application permissions is decided on by the developer. 
+
+\subsection{Other Issues}
+This section includes a short summary of existing issues in the Android permission model that will be examined further in chapter two; the literature review.
+ 
+\subsubsection{Permission Creep}
+Developers are expected to adhere to the concept of "least privilege" when requesting permissions, namely that only the minimum number of permissions required for an application to function should be requested. This is not always the case, as most developers request permissions which they feel may be required for the applications functionality in future, or just request for unwanted extra permissions due to being unaware or misinformed of these restrictions.
+
+\subsubsection{Capability Leaks}
+Capability leaks, also known as permission re-delegation is where an app uses "intents" to exploit the permission granted to another application. In such cases applications do not strictly adhere to their own permissions, but use another more privileged application to access resources. For example when a URL is received through a text message, clicking on it will lead to it being opened in a browser; even though the text message application does not have permission to open URLs it is able to do so by accessing the browser which does have that privilege. 
+
+\subsubsection{Data Availability After Uninstallation}
+Upon uninstallation of an application, the Linux UID is recycled and assigned to another application when the device is next rebooted. However research has shown that even though the UID is deleted, the permissions associated with it are not deleted and data still exists as "orphans" without a unique identifier. This may later be exploited by malicious applications which can mimic the UID and access permissions, proving that the consequences of granting permissions can exist even after the application in question is uninstalled from the device. 
+
+\subsection{Problem in Summary}
+The current permission model used in Android applications does not include a centralized process for certification or testing before an app is released, and instead relies on the developer to act responsibly and request the least number of permissions that are necessary. However in most cases the privileges given to developers are misused causing capability leaks, permission creep and some other issues, the consequences of which cannot be reversed even after app uninstallation. The simplest way to stop the occurrence of privacy breaches caused by the permission model would be to let the user have more control over permissions to be granted. The problem in a nutshell is that at present users are asked to make uninformed decisions, that can have wide reaching consequences, which they are not equipped to answer.
+
+
+\section{Research Question}
+
+Different types of interactions take place in this domain; users interact with applications to use the functionality and applications interact with the Operating System to access data(this is where permissions are called on-through the Linux Kernel where a unique user ID is created for each app upon installation). Further, to confirm the level of privacy provided by an app, users could interact with their peers to share the experience of whether the privacy provided by a particular application is adequate or not. Such interactions between applications and the operating system, applications and users, and users and users can be used to create a Web of Trust, focused on creating an improved permission architecture for Android applications and improving flexibility and control for users of the platform. 
+\smallskip
+
+Our research goal is to \textbf{propose and evaluate a user-driven privacy model to overcome the problems caused due to improper permission handling in android applications}. 
+
+\section{Goal and Objectives}
+\subsection{Goal}
+A preliminary step of letting users have more control over granting permissions would be to provide a way for users to determine whether the application keeps to the expected permissions or accesses more than it is supposed to. This is primarily a security issue since apps access permissions without authorization. However some accesses that violate user privacy occur through permissions that \textit{have} been granted by the user. There are many applications to detect unauthorized access and malicious code, but privacy violations occur through accesses that are not unauthorized and are hence not monitored through these applications.Therefore through this research, the expectation is to determine a method through which users will be informed about the trustworthiness of an application based on peer experience with the application.
+
+\subsection{Objectives}
+\begin{itemize}
+\item Study applications access of permissions
+\item Determine a simple scale to rate apps based on privacy breaches that are authorized
+\item Determine a method to connect a network of users and assign 'trust' ratings to these users
+\item Define threshold values for the 'Web of Trust' including reach of the web, stopping point etc
+\item Develop a function to compute the final rating based on the application rating and user's trust rating
+\item Present the information in a meaningful way for the user about to install the application
+\end{itemize}
+
+\section{Assumptions and Scope}
+\subsection{Scope}
+The research will focus on Android smartphones with access to the Google PlayStore. Monitoring will be carried out for a selected number of applications from the PlayStore, and not from apps installed using third party websites, promotional links on social media or email, external markets such as the Amazon Appstore, F-Droid etc. The scale to determine trustworthiness of an application will be assigned simply based on factors such as frequency of uninstallation, whether uninstallation happened after a major privacy breach etc. Depending on resource constraints this rating may be equalized to a user assigned rating for an application as well. The information provided to the user will be limited and focused on the core data needed to determine whether an application can be installed without trust issues.
+\smallskip 
+
+The research will focus on privacy violations that occur through authorized access. Therefore applications which ask for X permission and then use X to cause some privacy violation will be the focus of this research. We will be operating on the assumptions that trust cannot be misplaced, and that the Linux kernel on which the Android framework is built is completely secure.
+
+\subsection{Delimitation}
+The period assigned for the research is limited, and hence the amount of work will be limited by time constraints. Since the purpose is to propose a framework through which information flow to users before installing applications can be improved and not to provide a complete practical implementation of the system, some features will not be included during the research period for clarity and ease of understanding. 
+\smallskip
+
+We concentrate the research on the Google PlayStore since different markets follow different methodologies, and monitoring applications downloaded from various sources can lead to malware and security breaches. For the purpose of this research we will assume that the option to install applications from 'Unknown Sources' is disabled.The reasoning for concentrating on privacy is that there are existing research on security violations which occur through an application requesting only permissions X and Y upon installation and then using a loophole to access permission Z without authorization, typically malware and spyware. Further, the information provided will be limited by generated data during the course of analysis, and the ultimate decision on whether or not to install an application will be left to the user. 
+
+\section{Outline of the Thesis} 
+To be completed.

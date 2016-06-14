@@ -1,0 +1,86 @@
+
+\input{docs/preamble}
+\author{K.J.S. Fernando}
+\title{Web of Trust for Better Privacy Protection in Smartphones}
+\date{June, 2016}
+
+\newcommand{\namesigdate}[2][5cm]{%
+  \begin{tabular}{@{}p{#1}@{}}
+    #2 \\[2\normalbaselineskip] \hrule \\[0pt]
+    {\small \textit{Signature}} \\[2\normalbaselineskip] \hrule \\[0pt]
+    {\small \textit{Date}}
+  \end{tabular}
+}
+\begin{document}
+\frontmatter
+\begin{titlepage}
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}} % Defines a new command for the horizontal lines, change thickness here
+
+\center % Center everything on the page
+ 
+%----------------------------------------------------------------------------------------
+%	HEADING SECTIONS
+%----------------------------------------------------------------------------------------
+
+\textsc{\LARGE University of Colombo School of Computing}\\[1.5cm] % Name of your university/college
+\textsc{\Large SCS4124 - Final Year Project in Computer Science}\\[0.5cm] % Major heading such as course name
+
+%----------------------------------------------------------------------------------------
+%	TITLE SECTION
+%----------------------------------------------------------------------------------------
+
+\HRule \\[0.7cm]
+{ \huge \bfseries Web of Trust for Better Privacy Protection in Android Applications}\\[0.7cm] % Title of your document
+\HRule \\[9cm]
+
+%----------------------------------------------------------------------------------------
+%	AUTHOR SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{minipage}{0.4\textwidth}
+\begin{flushleft} \large
+\emph{Researcher:}\\
+K.J.S. \textsc{Fernando}\\ % Your name
+\emph{Index Number:}\\
+12000434
+\end{flushleft}
+\end{minipage}
+~
+\begin{minipage}{0.4\textwidth}
+\begin{flushright} \large
+\emph{Supervisor:} \\
+Dr. Kasun \textsc{de Zoysa}\\ % Supervisor's Name
+\emph{Co-supervisor:} \\
+Mr. Primal \textsc{Wijesekara}
+\end{flushright}
+\end{minipage}\\[2cm]
+
+%----------------------------------------------------------------------------------------
+%	DATE SECTION
+%----------------------------------------------------------------------------------------
+{\large June, 2016} % Date, change the \today to a set date if you want to be precise
+
+
+\vfill % Fill the rest of the page with whitespace
+
+\end{titlepage}
+
+\chapter{Declaration, Abstract and Acknowledgments}
+To be completed.
+%\chapter{Declaration}
+%\chapter{Abstract}
+%\chapter{Acknowledgments}
+
+\tableofcontents
+
+\mainmatter
+% The \input{} command reads and processes the indicated example.tex file. Note that docs/ locates the folder where the .tex file is stored.
+\input{docs/introduction}
+\input{docs/litreview}
+\chapter*{Appendices}
+\addcontentsline{toc}{chapter}{Appendices}  
+% The bibliography is printed with \bibliography{}. With the command \bibliographystyle{} a style is picked.
+\addcontentsline{toc}{chapter}{References}
+\bibliographystyle{plain}
+\bibliography{refs/references}
+\end{document}
