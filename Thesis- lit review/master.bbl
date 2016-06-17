@@ -200,6 +200,11 @@ N~Saint.
 \newblock 50\% of android apps with internet access that ask for your location
   send it to advertisers, 2010.
 
+\bibitem{schneider2004least}
+Fred~B Schneider.
+\newblock Least privilege and more.
+\newblock In {\em Computer Systems}, pages 253--258. Springer, 2004.
+
 \bibitem{spreitzenbarth2013mobile}
 Michael Spreitzenbarth, Felix Freiling, Florian Echtler, Thomas Schreck, and
   Johannes Hoffmann.
