@@ -60,6 +60,11 @@ Patrick~PF Chan, Lucas~CK Hui, and Siu-Ming Yiu.
 \newblock In {\em Proceedings of the fifth ACM conference on Security and
   Privacy in Wireless and Mobile Networks}, pages 125--136. ACM, 2012.
 
+\bibitem{davi2010privilege}
+Lucas Davi, Alexandra Dmitrienko, Ahmad-Reza Sadeghi, and Marcel Winandy.
+\newblock Privilege escalation attacks on android.
+\newblock In {\em Information Security}, pages 346--360. Springer, 2010.
+
 \bibitem{k}
 Android Developers.
 \newblock Android developers: Dashboards.
@@ -86,6 +91,12 @@ Adrienne~Porter Felt, Erika Chin, Steve Hanna, Dawn Song, and David Wagner.
 \newblock Android permissions demystified.
 \newblock In {\em Proceedings of the 18th ACM conference on Computer and
   communications security}, pages 627--638. ACM, 2011.
+
+\bibitem{felt2011effectiveness}
+Adrienne~Porter Felt, Kate Greenwood, and David Wagner.
+\newblock The effectiveness of application permissions.
+\newblock In {\em Proceedings of the 2nd USENIX conference on Web application
+  development}, pages 7--7, 2011.
 
 \bibitem{felt2012android}
 Adrienne~Porter Felt, Elizabeth Ha, Serge Egelman, Ariel Haney, Erika Chin, and
