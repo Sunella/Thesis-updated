@@ -77,11 +77,79 @@ Mr. Primal \textsc{Wijesekara}
 % The \input{} command reads and processes the indicated example.tex file. Note that docs/ locates the folder where the .tex file is stored.
 \input{docs/introduction}
 \input{docs/litreview}
-%\chapter*{Appendices}
-%Includes references for chapter 1. 
-%\addcontentsline{toc}{chapter}{Appendices}  
-% The bibliography is printed with \bibliography{}. With the command \bibliographystyle{} a style is picked.
+\chapter*{Appendix 01}
+\addcontentsline{toc}{chapter}{Appendix 01 - Normal and Dangerous Permissions}
+\addcontentsline{toc}{section}{Normal Permissions}
+\addcontentsline{toc}{section}{Dangerous Permissions}
+\section*{Normal Permissions}
+\begin{itemize}
+\item[] ACESS\_LOCATION\_EXTRA\_COMMANDS
+\item[] ACCESS\_NETWORK\_STATE
+\item[] ACCESS\_NOTIFICATION\_POLICY
+\item[] ACCESS\_WIFI\_STATE
+\item[] BLUETOOTH
+\item[] BLUETOOTH\_ADMIN
+\item[] BROADCAST\_STICKY
+\item[] CHANGE\_NETWORK\_STATE
+\item[] CHANGE\_WIFI\_MULTICAST\_STATE
+\item[] CHANGE\_WIFI\_STATE
+\item[] DISABLE\_KEYGUARD
+\item[] EXPAND\_STATUS\_BAR
+\item[] GET\_PACKAGE\_SIZE
+\item[] INSTALL\_SHORTCUT
+\item[] INTERNET 
+\item[] KILL\_BACKGROUND\_PROCESSES
+\item[] MODIFY\_AUDIO\_SETTINGS
+\item[] NFC
+\item[] READ\_SYNC\_SETTINGS
+\item[] READ\_SYNC\_STATS
+\item[] RECEIVE\_BOOT\_COMPLETED
+\item[] REORDER\_TASKS
+\item[] REQUEST\_IGNORE\_BATTERY\_OPTIMIZATIONS
+\item[] REQUEST\_INSTALL\_PACKAGES
+\item[] SET\_ALARM
+\item[] SET\_TIME\_ZONE
+\item[] SET\_WALLPAPER
+\item[] SET\_WALLPAPER\_HINTS
+\item[] TRANSMIT\_IR
+\item[] UNINSTALL\_SHORTCUT
+\item[] USE\_FINGERPRINT
+\item[] VIBRATE
+\item[] WAKE\_LOCK
+\item[] WRITE\_SYNC\_SETTINGS
+\end{itemize}
+
+\section*{Dangerous Permissions}
+\begin{itemize}
+\item[] READ\_CALENDAR
+\item[] WRITE\_CALENDAR
+\item[] CAMERA
+\item[] READ\_CONTACTS
+\item[] WRITE\_CONTACTS
+\item[] GET\_ACCOUNTS
+\item[] ACCESS\_FINE\_LOCATION
+\item[] ACCESS\_COARSE\_LOCATION
+\item[] RECORD\_AUDIO
+\item[] READ\_PHONE\_STATE
+\item[] CALL\_PHONE
+\item[] READ\_CALL\_LOG
+\item[] WRITE\_CALL\_LOG
+\item[] ADD\_VOICEMAIL
+\item[] USE\_SIP
+\item[] PROCESS\_OUTGOING\_CALLS
+\item[] BODY\_SENSORS
+\item[] SEND\_SMS
+\item[] RECEIVE\_SMS
+\item[] READ\_SMS
+\item[] RECEIVE\_WAP\_PUSH
+\item[] RECEIVE\_MMS
+\item[] READ\_EXTERNAL\_STORAGE
+\item[] WRITE\_EXTERNAL\_STORAGE
+\end{itemize}
+
+
 \addcontentsline{toc}{chapter}{References}
 \bibliographystyle{plain}
 \bibliography{refs/references}
+
 \end{document}

@@ -22,17 +22,21 @@
 \contentsline {section}{\numberline {1.7}Outline of the Thesis}{9}{section.1.7}
 \contentsline {chapter}{\numberline {2}Literature Review}{10}{chapter.2}
 \contentsline {section}{\numberline {2.1}The Android Permission Model}{10}{section.2.1}
-\contentsline {subsection}{\numberline {2.1.1}Application Security and Privacy}{10}{subsection.2.1.1}
-\contentsline {subsection}{\numberline {2.1.2}Before Android Marshmallow}{10}{subsection.2.1.2}
-\contentsline {subsection}{\numberline {2.1.3}After Android Marshmallow}{11}{subsection.2.1.3}
-\contentsline {section}{\numberline {2.2}Problems with the existing system}{11}{section.2.2}
-\contentsline {subsection}{\numberline {2.2.1}Least Privilege}{11}{subsection.2.2.1}
-\contentsline {subsection}{\numberline {2.2.2}Capability Leaks}{11}{subsection.2.2.2}
-\contentsline {subsection}{\numberline {2.2.3}Data Availability After Uninstallation}{12}{subsection.2.2.3}
-\contentsline {subsection}{\numberline {2.2.4}Permission Creep}{12}{subsection.2.2.4}
-\contentsline {section}{\numberline {2.3}Proposed Solutions}{13}{section.2.3}
-\contentsline {subsection}{\numberline {2.3.1}Facilitating Informed Decisions}{13}{subsection.2.3.1}
-\contentsline {subsection}{\numberline {2.3.2}Code Analysis to Curb Permission Creep}{13}{subsection.2.3.2}
-\contentsline {subsection}{\numberline {2.3.3}User Driven Solutions}{13}{subsection.2.3.3}
-\contentsline {section}{\numberline {2.4}Transitivity of Trust}{13}{section.2.4}
-\contentsline {chapter}{References}{13}{section.2.4}
+\contentsline {subsection}{\numberline {2.1.1}Comparison of Application Approval Process}{10}{subsection.2.1.1}
+\contentsline {subsection}{\numberline {2.1.2}Application Security and Privacy}{11}{subsection.2.1.2}
+\contentsline {subsection}{\numberline {2.1.3}Before Android Marshmallow}{12}{subsection.2.1.3}
+\contentsline {subsection}{\numberline {2.1.4}After Android Marshmallow}{13}{subsection.2.1.4}
+\contentsline {section}{\numberline {2.2}Problems with the existing system}{13}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Least Privilege}{13}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}Capability Leaks}{14}{subsection.2.2.2}
+\contentsline {subsection}{\numberline {2.2.3}Data Availability After Uninstallation}{14}{subsection.2.2.3}
+\contentsline {subsection}{\numberline {2.2.4}Permission Creep}{14}{subsection.2.2.4}
+\contentsline {section}{\numberline {2.3}Proposed Solutions}{15}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}Facilitating Informed Decisions}{15}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.2}Code Analysis to Curb Permission Creep}{15}{subsection.2.3.2}
+\contentsline {subsection}{\numberline {2.3.3}User Driven Solutions}{16}{subsection.2.3.3}
+\contentsline {section}{\numberline {2.4}Transitivity of Trust}{16}{section.2.4}
+\contentsline {chapter}{Appendix 01 - Normal and Dangerous Permissions}{17}{chapter*.7}
+\contentsline {section}{Normal Permissions}{17}{section*.8}
+\contentsline {section}{Dangerous Permissions}{17}{section*.8}
+\contentsline {chapter}{References}{19}{section*.10}

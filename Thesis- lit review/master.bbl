@@ -15,6 +15,17 @@ Market share statistics for internet technologies; mobile/tablet operating
   \url{https://www.netmarketshare.com/operating-system-market-share.aspx?qprid=8&qpcustomd=1},
   2016.
 
+\bibitem{androidyearinreview}
+AOSP.
+\newblock Android security 2015 year in review - android open source project.
+\newblock
+  \url{https://static.googleusercontent.com/media/source.android.com/en//security/reports/Google_Android_Security_2015_Report_Final.pdf}.
+
+\bibitem{diagrameka}
+AOSP.
+\newblock Security program overview.
+\newblock \url{https://source.android.com/security/}.
+
 \bibitem{arzt2014flowdroid}
 Steven Arzt, Siegfried Rasthofer, Christian Fritz, Eric Bodden, Alexandre
   Bartel, Jacques Klein, Yves Le~Traon, Damien Octeau, and Patrick McDaniel.
@@ -168,6 +179,13 @@ Patrick McDaniel.
 \newblock Bloatware comes to the smartphone.
 \newblock {\em IEEE Security \& Privacy}, (4):85--87, 2012.
 
+\bibitem{meshram2014survey}
+PD~Meshram and RC~Thool.
+\newblock A survey paper on vulnerabilities in android os and security of
+  android devices.
+\newblock In {\em Wireless Computing and Networking (GCWCN), 2014 IEEE Global
+  Conference on}, pages 174--178. IEEE, 2014.
+
 \bibitem{aa}
 T.~Moynihan.
 \newblock Wired: Apps snoop on your location way more than you think.
@@ -218,6 +236,12 @@ Statistica.
 \newblock
   \url{http://www.statista.com/statistics/276623/number-of-apps-available-in-leading-app-stores/},
   2016.
+
+\bibitem{stevens2009computer}
+Gunnar Stevens and Volker Wulf.
+\newblock Computer-supported access control.
+\newblock {\em ACM Transactions on Computer-Human Interaction (TOCHI)},
+  16(3):12, 2009.
 
 \bibitem{stevens2013asking}
 Ryan Stevens, Jonathan Ganz, Vladimir Filkov, Premkumar Devanbu, and Hao Chen.

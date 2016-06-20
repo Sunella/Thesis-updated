@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.4.23)  17 JUN 2016 13:29
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.4.23)  20 JUN 2016 23:43
 entering extended mode
 **master.tex
 (master.tex
@@ -22,41 +22,13 @@ File: bk11.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
-("C:\Program Files\MiKTEX\tex\latex\graphics\graphicx.sty"
-Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+("C:\Program Files\MiKTEX\tex\latex\geometry\geometry.sty"
+Package: geometry 2010/09/12 v5.6 Page Geometry
 
 ("C:\Program Files\MiKTEX\tex\latex\graphics\keyval.sty"
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks14
 )
-("C:\Program Files\MiKTEX\tex\latex\graphics\graphics.sty"
-Package: graphics 2014/10/28 v1.0p Standard LaTeX Graphics (DPC,SPQR)
-
-("C:\Program Files\MiKTEX\tex\latex\graphics\trig.sty"
-Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
-)
-("C:\Program Files\MiKTEX\tex\latex\00miktex\graphics.cfg"
-File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
-)
-Package graphics Info: Driver file: pdftex.def on input line 91.
-
-("C:\Program Files\MiKTEX\tex\latex\pdftex-def\pdftex.def"
-File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
-
-("C:\Program Files\MiKTEX\tex\generic\oberdiek\infwarerr.sty"
-Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
-)
-("C:\Program Files\MiKTEX\tex\generic\oberdiek\ltxcmds.sty"
-Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
-)
-\Gread@gobject=\count88
-))
-\Gin@req@height=\dimen103
-\Gin@req@width=\dimen104
-)
-("C:\Program Files\MiKTEX\tex\latex\geometry\geometry.sty"
-Package: geometry 2010/09/12 v5.6 Page Geometry
-
 ("C:\Program Files\MiKTEX\tex\generic\oberdiek\ifpdf.sty"
 Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
 Package ifpdf Info: pdfTeX in PDF mode is detected.
@@ -68,17 +40,17 @@ Package ifvtex Info: VTeX not detected.
 ("C:\Program Files\MiKTEX\tex\generic\ifxetex\ifxetex.sty"
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
-\Gm@cnth=\count89
-\Gm@cntv=\count90
-\c@Gm@tempcnt=\count91
-\Gm@bindingoffset=\dimen105
-\Gm@wd@mp=\dimen106
-\Gm@odd@mp=\dimen107
-\Gm@even@mp=\dimen108
-\Gm@layoutwidth=\dimen109
-\Gm@layoutheight=\dimen110
-\Gm@layouthoffset=\dimen111
-\Gm@layoutvoffset=\dimen112
+\Gm@cnth=\count88
+\Gm@cntv=\count89
+\c@Gm@tempcnt=\count90
+\Gm@bindingoffset=\dimen103
+\Gm@wd@mp=\dimen104
+\Gm@odd@mp=\dimen105
+\Gm@even@mp=\dimen106
+\Gm@layoutwidth=\dimen107
+\Gm@layoutheight=\dimen108
+\Gm@layouthoffset=\dimen109
+\Gm@layoutvoffset=\dimen110
 \Gm@dimlist=\toks15
 
 ("C:\Program Files\MiKTEX\tex\latex\geometry\geometry.cfg"))
@@ -93,46 +65,46 @@ Package: amstext 2000/06/29 v2.01
 ("C:\Program Files\MiKTEX\tex\latex\amsmath\amsgen.sty"
 File: amsgen.sty 1999/11/30 v2.0
 \@emptytoks=\toks16
-\ex@=\dimen113
+\ex@=\dimen111
 ))
 ("C:\Program Files\MiKTEX\tex\latex\amsmath\amsbsy.sty"
 Package: amsbsy 1999/11/29 v1.2d
-\pmbraise@=\dimen114
+\pmbraise@=\dimen112
 )
 ("C:\Program Files\MiKTEX\tex\latex\amsmath\amsopn.sty"
 Package: amsopn 1999/12/14 v2.01 operator names
 )
-\inf@bad=\count92
+\inf@bad=\count91
 LaTeX Info: Redefining \frac on input line 210.
-\uproot@=\count93
-\leftroot@=\count94
+\uproot@=\count92
+\leftroot@=\count93
 LaTeX Info: Redefining \overline on input line 306.
-\classnum@=\count95
-\DOTSCASE@=\count96
+\classnum@=\count94
+\DOTSCASE@=\count95
 LaTeX Info: Redefining \ldots on input line 378.
 LaTeX Info: Redefining \dots on input line 381.
 LaTeX Info: Redefining \cdots on input line 466.
 \Mathstrutbox@=\box26
 \strutbox@=\box27
-\big@size=\dimen115
+\big@size=\dimen113
 LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
-\macc@depth=\count97
-\c@MaxMatrixCols=\count98
+\macc@depth=\count96
+\c@MaxMatrixCols=\count97
 \dotsspace@=\muskip10
-\c@parentequation=\count99
-\dspbrk@lvl=\count100
+\c@parentequation=\count98
+\dspbrk@lvl=\count99
 \tag@help=\toks17
-\row@=\count101
-\column@=\count102
-\maxfields@=\count103
+\row@=\count100
+\column@=\count101
+\maxfields@=\count102
 \andhelp@=\toks18
-\eqnshift@=\dimen116
-\alignsep@=\dimen117
-\tagshift@=\dimen118
-\tagwidth@=\dimen119
-\totwidth@=\dimen120
-\lineht@=\dimen121
+\eqnshift@=\dimen114
+\alignsep@=\dimen115
+\tagshift@=\dimen116
+\tagwidth@=\dimen117
+\totwidth@=\dimen118
+\lineht@=\dimen119
 \@envbody=\toks19
 \multlinegap=\skip44
 \multlinetaggap=\skip45
@@ -158,6 +130,34 @@ Package: amsthm 2009/07/02 v2.20.1
 \thm@postskip=\skip47
 \thm@headsep=\skip48
 \dth@everypar=\toks26
+)
+("C:\Program Files\MiKTEX\tex\latex\graphics\graphicx.sty"
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files\MiKTEX\tex\latex\graphics\graphics.sty"
+Package: graphics 2014/10/28 v1.0p Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files\MiKTEX\tex\latex\graphics\trig.sty"
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+("C:\Program Files\MiKTEX\tex\latex\00miktex\graphics.cfg"
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+
+("C:\Program Files\MiKTEX\tex\latex\pdftex-def\pdftex.def"
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+("C:\Program Files\MiKTEX\tex\generic\oberdiek\infwarerr.sty"
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+("C:\Program Files\MiKTEX\tex\generic\oberdiek\ltxcmds.sty"
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count103
+))
+\Gin@req@height=\dimen120
+\Gin@req@width=\dimen121
 )
 ("C:\Program Files\MiKTEX\tex\latex\booktabs\booktabs.sty"
 Package: booktabs 2005/04/14 v1.61803 publication quality tables
@@ -656,20 +656,6 @@ LaTeX Font Info:    ... okay on input line 14.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 14.
 LaTeX Font Info:    ... okay on input line 14.
 
-("C:\Program Files\MiKTEX\tex\context\base\supp-pdf.mkii"
-[Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count167
-\scratchdimen=\dimen191
-\scratchbox=\box52
-\nofMPsegments=\count168
-\nofMParguments=\count169
-\everyMPshowfont=\toks31
-\MPscratchCnt=\count170
-\MPscratchDim=\dimen192
-\MPnumerator=\count171
-\makeMPintoPDFobject=\count172
-\everyMPtoPDFconversion=\toks32
-)
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -704,7 +690,20 @@ LaTeX Font Info:    ... okay on input line 14.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-
+("C:\Program Files\MiKTEX\tex\context\base\supp-pdf.mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count167
+\scratchdimen=\dimen191
+\scratchbox=\box52
+\nofMPsegments=\count168
+\nofMParguments=\count169
+\everyMPshowfont=\toks31
+\MPscratchCnt=\count170
+\MPscratchDim=\dimen192
+\MPnumerator=\count171
+\makeMPintoPDFobject=\count172
+\everyMPtoPDFconversion=\toks32
+)
 ("C:\Program Files\MiKTEX\tex\latex\beamer\base\translator\dicts\translator-bas
 ic-dictionary\translator-basic-dictionary-English.dict"
 Dictionary: translator-basic-dictionary, Language: English 
@@ -790,20 +789,26 @@ Missing character: There is no ô in font cmr10!
 Underfull \vbox (badness 7344) has occurred while \output is active []
 
  [7]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 120.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 122.
 
 
 ("C:\Program Files\MiKTEX\tex\latex\base\omscmr.fd"
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 120.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 122.
  [8]) (docs/litreview.tex
 [9]
  2.
 [10
 
-] [11]
+] <figs/Capture1.jpg, id=308, 198.14024pt x 178.86826pt>
+File: figs/Capture1.jpg Graphic file (type jpg)
+
+<use figs/Capture1.jpg>
+Package pdftex.def Info: figs/Capture1.jpg used on input line 30.
+(pdftex.def)             Requested size: 209.14178pt x 170.72356pt.
+ [11] [12 <./figs/Capture1.jpg>] [13]
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ú in font cmr10!
@@ -822,7 +827,15 @@ Missing character: There is no ú in font cmr10!
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ù in font cmr10!
- [12]) (master.bbl [13]
+ [14] [15])
+[16]
+
+Package hyperref Warning: The anchor of a bookmark and its parent's must not
+(hyperref)                be the same. Added a new anchor on input line 82.
+
+[17
+
+] [18] (master.bbl [19]
 Underfull \hbox (badness 3690) in paragraph at lines 8--10
 []\OT1/cmr/m/n/10.95 Patterns: Per-mis-sions.  []$\OT1/cmtt/m/n/10.95 https : /
  / www . google . com / design / spec / patterns /$
@@ -841,96 +854,101 @@ ps : / / www . netmarketshare . com /$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 52--56
+Underfull \hbox (badness 10000) in paragraph at lines 19--23
+[]$\OT1/cmtt/m/n/10.95 https : / / static . googleusercontent . com / media / s
+ource . android . com / en /$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 63--67
 []\OT1/cmr/m/n/10.95 Windows Dev Cen-ter.  Msdn, the app cer-ti-fi-ca-tion pro-
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 52--56
+Underfull \hbox (badness 10000) in paragraph at lines 63--67
 \OT1/cmr/m/n/10.95 cess.  []$\OT1/cmtt/m/n/10.95 https : / / msdn . microsoft .
  com / en-[]us / windows / uwp / publish /$
  []
 
-[14
+[20
 
-]
-Underfull \hbox (badness 10000) in paragraph at lines 134--138
+] [21]
+Underfull \hbox (badness 10000) in paragraph at lines 145--149
 []\OT1/cmr/m/n/10.95 Apple Inc.  ios de-vel-oper library-app dis-tri-bu-tion gu
 ide.  []$\OT1/cmtt/m/n/10.95 https :$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 134--138
+Underfull \hbox (badness 10000) in paragraph at lines 145--149
 $\OT1/cmtt/m/n/10.95 / / developer . apple . com / library / ios / documentatio
 n / IDEs / Conceptual /$
  []
 
-[15]
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
 
-Underfull \hbox (badness 10000) in paragraph at lines 178--184
+Underfull \hbox (badness 10000) in paragraph at lines 196--202
 []\OT1/cmr/m/n/10.95 P. Nick-in-son.  An-droid cen-tral: Rovio ex-plains new pe
 r-mis-sions
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 178--184
+Underfull \hbox (badness 10000) in paragraph at lines 196--202
 \OT1/cmr/m/n/10.95 in an-gry-birds sea-sons up-date.  []$\OT1/cmtt/m/n/10.95 ht
 tp : / / www . androidcentral . com /$
  []
 
 
-Underfull \hbox (badness 1406) in paragraph at lines 191--197
+Underfull \hbox (badness 1406) in paragraph at lines 209--215
 []\OT1/cmr/m/n/10.95 A. Rus-sakovskii.  Rovio ex-plains why the sms per-mis-sio
 n was in-tro-duced
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 191--197
+Underfull \hbox (badness 10000) in paragraph at lines 209--215
 \OT1/cmr/m/n/10.95 in an-gry birds v1.5.1.  []$\OT1/cmtt/m/n/10.95 http : / / w
 ww . androidpolice . com / 2011 / 02 / 06 /$
  []
 
 
-Overfull \hbox (38.69925pt too wide) in paragraph at lines 191--197
+Overfull \hbox (38.69925pt too wide) in paragraph at lines 209--215
 $\OT1/cmtt/m/n/10.95 rovio-[]explainswhy-[]the-[]sms-[]permission-[]was-[]intro
 duced-[]in-[]angry-[]birds-[]v1-[]5-[]1/$[]\OT1/cmr/m/n/10.95 ,
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 216--221
+[22]
+Underfull \hbox (badness 10000) in paragraph at lines 234--239
 []\OT1/cmr/m/n/10.95 Statistica.  Num-ber of apps avail-able in lead-ing app st
 ores as
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 216--221
+Underfull \hbox (badness 10000) in paragraph at lines 234--239
 \OT1/cmr/m/n/10.95 at july 2015.  []$\OT1/cmtt/m/n/10.95 http : / / www . stati
 sta . com / statistics / 276623 /$
  []
 
-[16])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 87.
- [17]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 87.
+)
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 155.
+ [23]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 155.
  (master.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 87.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 87.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 155.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 155.
 Package rerunfilecheck Info: File `master.out' has not changed.
-(rerunfilecheck)             Checksum: 9DB7FDC5F554130E02D6175503693F23;2492.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 87.
+(rerunfilecheck)             Checksum: 41A6332110A99509602D11802BE53BB2;2808.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 155.
  ) 
 Here is how much of TeX's memory you used:
- 17432 strings out of 493698
- 343018 string characters out of 3146018
- 402696 words of memory out of 3000000
- 20514 multiletter control sequences out of 15000+200000
+ 17471 strings out of 493698
+ 343564 string characters out of 3146018
+ 403707 words of memory out of 3000000
+ 20533 multiletter control sequences out of 15000+200000
  14677 words of font info for 54 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
- 41i,5n,39p,10395b,834s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 41i,6n,39p,10395b,834s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTEX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Progra
 m Files/MiKTEX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKT
 EX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Program Files/MiKTEX/fonts/ty
@@ -940,9 +958,9 @@ l10.pfb><C:/Program Files/MiKTEX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/
 Program Files/MiKTEX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program File
 s/MiKTEX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files/MiKTEX/fon
 ts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on master.pdf (20 pages, 252876 bytes).
+Output written on master.pdf (26 pages, 307748 bytes).
 PDF statistics:
- 454 PDF objects out of 1000 (max. 8388607)
- 103 named destinations out of 1000 (max. 500000)
- 281 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 524 PDF objects out of 1000 (max. 8388607)
+ 119 named destinations out of 1000 (max. 500000)
+ 318 words of extra memory for PDF output out of 10000 (max. 10000000)
 
