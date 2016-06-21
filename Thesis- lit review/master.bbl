@@ -15,6 +15,12 @@ Market share statistics for internet technologies; mobile/tablet operating
   \url{https://www.netmarketshare.com/operating-system-market-share.aspx?qprid=8&qpcustomd=1},
   2016.
 
+\bibitem{abdul1997using}
+Alfarez Abdul-Rahman and Stephen Hailes.
+\newblock Using recommendations for managing trust in distributed systems.
+\newblock In {\em Proceedings IEEE Malaysia International Conference on
+  Communication}, volume~97. Citeseer, 1997.
+
 \bibitem{almohri2014droidbarrier}
 Hussain~MJ Almohri, Danfeng~Daphne Yao, and Dennis Kafura.
 \newblock Droidbarrier: Know what is executing on your android.
@@ -31,6 +37,12 @@ AOSP.
 AOSP.
 \newblock Security program overview.
 \newblock \url{https://source.android.com/security/}.
+
+\bibitem{artz2007survey}
+Donovan Artz and Yolanda Gil.
+\newblock A survey of trust in computer science and the semantic web.
+\newblock {\em Web Semantics: Science, Services and Agents on the World Wide
+  Web}, 5(2):58--71, 2007.
 
 \bibitem{arzt2014flowdroid}
 Steven Arzt, Siegfried Rasthofer, Christian Fritz, Eric Bodden, Alexandre
@@ -58,6 +70,12 @@ David Barrera, H~G{\"u}ne{\c{s}} Kayacik, Paul~C van Oorschot, and Anil
   models and its application to android.
 \newblock In {\em Proceedings of the 17th ACM conference on Computer and
   communications security}, pages 73--84. ACM, 2010.
+
+\bibitem{beth1994valuation}
+Thomas Beth, Malte Borcherding, and Birgit Klein.
+\newblock Valuation of trust in open networks.
+\newblock In {\em European Symposium on Research in Computer Security}, pages
+  1--18. Springer, 1994.
 
 \bibitem{bugiel2013flexible}
 Sven Bugiel, Stephan Heuser, and Ahmad-Reza Sadeghi.
@@ -240,6 +258,12 @@ A.~Russakovskii.
   \url{http://www.androidpolice.com/2011/02/06/rovio-explainswhy-the-sms-permission-was-introduced-in-angry-birds-v1-5-1/},
   2011.
 
+\bibitem{sabater2002reputation}
+Jordi Sabater and Carles Sierra.
+\newblock Reputation and social network analysis in multi-agent systems.
+\newblock In {\em Proceedings of the first international joint conference on
+  Autonomous agents and multiagent systems: part 1}, pages 475--482. ACM, 2002.
+
 \bibitem{saint201050}
 N~Saint.
 \newblock 50\% of android apps with internet access that ask for your location
@@ -282,6 +306,11 @@ Ryan Stevens, Jonathan Ganz, Vladimir Filkov, Premkumar Devanbu, and Hao Chen.
 \newblock In {\em Proceedings of the 10th Working Conference on Mining Software
   Repositories}, pages 31--40. IEEE Press, 2013.
 
+\bibitem{sun2008defense}
+Yan Sun, Zhu Han, and KJ~Ray Liu.
+\newblock Defense of trust management vulnerabilities in distributed networks.
+\newblock {\em IEEE Communications Magazine}, 46(2):112--119, 2008.
+
 \bibitem{vidas2011curbing}
 Timothy Vidas, Nicolas Christin, and Lorrie Cranor.
 \newblock Curbing android permission creep.
@@ -306,6 +335,19 @@ Kun Yang, Jianwei Zhuge, Yongke Wang, Lujue Zhou, and Haixin Duan.
 \newblock Intentfuzzer: detecting capability leaks of android applications.
 \newblock In {\em Proceedings of the 9th ACM symposium on Information, computer
   and communications security}, pages 531--536. ACM, 2014.
+
+\bibitem{yu2000social}
+Bin Yu and Munindar~P Singh.
+\newblock A social mechanism of reputation management in electronic
+  communities.
+\newblock In {\em International Workshop on Cooperative Information Agents},
+  pages 154--165. Springer, 2000.
+
+\bibitem{yu2002evidential}
+Bin Yu and Munindar~P Singh.
+\newblock An evidential model of distributed reputation management.
+\newblock In {\em Proceedings of the first international joint conference on
+  Autonomous agents and multiagent systems: part 1}, pages 294--301. ACM, 2002.
 
 \bibitem{zhang2016life}
 Xiao Zhang, Kailiang Ying, Yousra Aafer, Zhenshen Qiu, and Wenliang Du.
