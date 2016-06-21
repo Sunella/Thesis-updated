@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.4.23)  20 JUN 2016 23:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.4.23)  21 JUN 2016 11:09
 entering extended mode
 **master.tex
 (master.tex
@@ -807,8 +807,23 @@ File: figs/Capture1.jpg Graphic file (type jpg)
 
 <use figs/Capture1.jpg>
 Package pdftex.def Info: figs/Capture1.jpg used on input line 30.
-(pdftex.def)             Requested size: 209.14178pt x 170.72356pt.
- [11] [12 <./figs/Capture1.jpg>] [13]
+(pdftex.def)             Requested size: 189.118pt x 170.71652pt.
+ [11] <figs/Capture2.jpg, id=320, 489.027pt x 264.99pt>
+File: figs/Capture2.jpg Graphic file (type jpg)
+
+<use figs/Capture2.jpg>
+Package pdftex.def Info: figs/Capture2.jpg used on input line 46.
+(pdftex.def)             Requested size: 315.05061pt x 170.71652pt.
+
+Underfull \vbox (badness 1708) has occurred while \output is active []
+
+ [12 <./figs/Capture1.jpg>] <figs/Flowchart.png, id=334, 963.6pt x 895.345pt>
+File: figs/Flowchart.png Graphic file (type png)
+
+<use figs/Flowchart.png>
+Package pdftex.def Info: figs/Flowchart.png used on input line 55.
+(pdftex.def)             Requested size: 214.34518pt x 199.16928pt.
+ [13 <./figs/Capture2.jpg>] [14 <./figs/Flowchart.png>]
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ú in font cmr10!
@@ -827,15 +842,20 @@ Missing character: There is no ú in font cmr10!
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ù in font cmr10!
- [14] [15])
-[16]
+[15]
+Overfull \hbox (8.91858pt too wide) in paragraph at lines 82--84
+\OT1/cmr/m/n/10.95 em-per-i-cal anal-y-sis of per-mis-sion based se-cu-rity mod
+-els us-ing Self-Organizing Maps(SOMs),
+ []
+
+[16]) [17]
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
 (hyperref)                be the same. Added a new anchor on input line 82.
 
-[17
+[18
 
-] [18] (master.bbl [19]
+] [19] (master.bbl [20]
 Underfull \hbox (badness 3690) in paragraph at lines 8--10
 []\OT1/cmr/m/n/10.95 Patterns: Per-mis-sions.  []$\OT1/cmtt/m/n/10.95 https : /
  / www . google . com / design / spec / patterns /$
@@ -854,33 +874,33 @@ ps : / / www . netmarketshare . com /$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 19--23
+Underfull \hbox (badness 10000) in paragraph at lines 25--29
 []$\OT1/cmtt/m/n/10.95 https : / / static . googleusercontent . com / media / s
 ource . android . com / en /$
  []
 
+[21
 
-Underfull \hbox (badness 10000) in paragraph at lines 63--67
+]
+Underfull \hbox (badness 10000) in paragraph at lines 69--73
 []\OT1/cmr/m/n/10.95 Windows Dev Cen-ter.  Msdn, the app cer-ti-fi-ca-tion pro-
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 63--67
+Underfull \hbox (badness 10000) in paragraph at lines 69--73
 \OT1/cmr/m/n/10.95 cess.  []$\OT1/cmtt/m/n/10.95 https : / / msdn . microsoft .
  com / en-[]us / windows / uwp / publish /$
  []
 
-[20
-
-] [21]
-Underfull \hbox (badness 10000) in paragraph at lines 145--149
+[22]
+Underfull \hbox (badness 10000) in paragraph at lines 172--176
 []\OT1/cmr/m/n/10.95 Apple Inc.  ios de-vel-oper library-app dis-tri-bu-tion gu
 ide.  []$\OT1/cmtt/m/n/10.95 https :$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 145--149
+Underfull \hbox (badness 10000) in paragraph at lines 172--176
 $\OT1/cmtt/m/n/10.95 / / developer . apple . com / library / ios / documentatio
 n / IDEs / Conceptual /$
  []
@@ -888,67 +908,74 @@ n / IDEs / Conceptual /$
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
-
-Underfull \hbox (badness 10000) in paragraph at lines 196--202
+[23]
+Underfull \hbox (badness 10000) in paragraph at lines 223--229
 []\OT1/cmr/m/n/10.95 P. Nick-in-son.  An-droid cen-tral: Rovio ex-plains new pe
 r-mis-sions
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 196--202
+Underfull \hbox (badness 10000) in paragraph at lines 223--229
 \OT1/cmr/m/n/10.95 in an-gry-birds sea-sons up-date.  []$\OT1/cmtt/m/n/10.95 ht
 tp : / / www . androidcentral . com /$
  []
 
 
-Underfull \hbox (badness 1406) in paragraph at lines 209--215
+Underfull \hbox (badness 1406) in paragraph at lines 236--242
 []\OT1/cmr/m/n/10.95 A. Rus-sakovskii.  Rovio ex-plains why the sms per-mis-sio
 n was in-tro-duced
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 209--215
+Underfull \hbox (badness 10000) in paragraph at lines 236--242
 \OT1/cmr/m/n/10.95 in an-gry birds v1.5.1.  []$\OT1/cmtt/m/n/10.95 http : / / w
 ww . androidpolice . com / 2011 / 02 / 06 /$
  []
 
 
-Overfull \hbox (38.69925pt too wide) in paragraph at lines 209--215
+Overfull \hbox (38.69925pt too wide) in paragraph at lines 236--242
 $\OT1/cmtt/m/n/10.95 rovio-[]explainswhy-[]the-[]sms-[]permission-[]was-[]intro
 duced-[]in-[]angry-[]birds-[]v1-[]5-[]1/$[]\OT1/cmr/m/n/10.95 ,
  []
 
-[22]
-Underfull \hbox (badness 10000) in paragraph at lines 234--239
+
+Overfull \hbox (40.80865pt too wide) in paragraph at lines 254--258
+[]\OT1/cmr/m/n/10.95 Mobile Siri.  []$\OT1/cmtt/m/n/10.95 http : / / mobilesiri
+ . com / how-[]to-[]request-[]android-[]runtime-[]permissions/$[]\OT1/cmr/m/n/1
+0.95 ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 267--272
 []\OT1/cmr/m/n/10.95 Statistica.  Num-ber of apps avail-able in lead-ing app st
 ores as
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 234--239
+Underfull \hbox (badness 10000) in paragraph at lines 267--272
 \OT1/cmr/m/n/10.95 at july 2015.  []$\OT1/cmtt/m/n/10.95 http : / / www . stati
 sta . com / statistics / 276623 /$
  []
 
-)
+[24])
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 155.
- [23]
+ [25]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 155.
  (master.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 155.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 155.
 Package rerunfilecheck Info: File `master.out' has not changed.
-(rerunfilecheck)             Checksum: 41A6332110A99509602D11802BE53BB2;2808.
+(rerunfilecheck)             Checksum: 147A6D90CA39B97F0647082EC25182AF;2812.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 155.
  ) 
 Here is how much of TeX's memory you used:
- 17471 strings out of 493698
- 343564 string characters out of 3146018
+ 17495 strings out of 493698
+ 344023 string characters out of 3146018
  403707 words of memory out of 3000000
- 20533 multiletter control sequences out of 15000+200000
+ 20546 multiletter control sequences out of 15000+200000
  14677 words of font info for 54 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
- 41i,6n,39p,10395b,834s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 41i,6n,40p,10395b,834s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTEX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Progra
 m Files/MiKTEX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKT
 EX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Program Files/MiKTEX/fonts/ty
@@ -958,9 +985,9 @@ l10.pfb><C:/Program Files/MiKTEX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/
 Program Files/MiKTEX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program File
 s/MiKTEX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files/MiKTEX/fon
 ts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on master.pdf (26 pages, 307748 bytes).
+Output written on master.pdf (28 pages, 395894 bytes).
 PDF statistics:
- 524 PDF objects out of 1000 (max. 8388607)
- 119 named destinations out of 1000 (max. 500000)
- 318 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 555 PDF objects out of 1000 (max. 8388607)
+ 128 named destinations out of 1000 (max. 500000)
+ 328 words of extra memory for PDF output out of 10000 (max. 10000000)
 

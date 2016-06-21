@@ -15,6 +15,12 @@ Market share statistics for internet technologies; mobile/tablet operating
   \url{https://www.netmarketshare.com/operating-system-market-share.aspx?qprid=8&qpcustomd=1},
   2016.
 
+\bibitem{almohri2014droidbarrier}
+Hussain~MJ Almohri, Danfeng~Daphne Yao, and Dennis Kafura.
+\newblock Droidbarrier: Know what is executing on your android.
+\newblock In {\em Proceedings of the 4th ACM conference on Data and application
+  security and privacy}, pages 257--264. ACM, 2014.
+
 \bibitem{androidyearinreview}
 AOSP.
 \newblock Android security 2015 year in review - android open source project.
@@ -87,6 +93,19 @@ Android Developers.
 \newblock
   \url{http://developer.android.com/tools/publishing/publishing_overview.html}.
 
+\bibitem{androdashboard}
+Android Developers.
+\newblock Android dashboards.
+\newblock \url{https://developer.android.com/about/dashboards/index.html},
+  2016.
+
+\bibitem{enck2014taintdroid}
+William Enck, Peter Gilbert, Seungyeop Han, Vasant Tendulkar, Byung-Gon Chun,
+  Landon~P Cox, Jaeyeon Jung, Patrick McDaniel, and Anmol~N Sheth.
+\newblock Taintdroid: an information-flow tracking system for realtime privacy
+  monitoring on smartphones.
+\newblock {\em ACM Transactions on Computer Systems (TOCS)}, 32(2):5, 2014.
+
 \bibitem{enck2009understanding}
 William Enck, Machigar Ongtang, and Patrick McDaniel.
 \newblock Understanding android security.
@@ -140,6 +159,14 @@ Marian Harbach, Markus Hettig, Susanne Weber, and Matthew Smith.
   privacy decisions.
 \newblock In {\em Proceedings of the 32nd annual ACM conference on Human
   factors in computing systems}, pages 2647--2656. ACM, 2014.
+
+\bibitem{hornyack2011these}
+Peter Hornyack, Seungyeop Han, Jaeyeon Jung, Stuart Schechter, and David
+  Wetherall.
+\newblock These aren't the droids you're looking for: retrofitting android to
+  protect data from imperious applications.
+\newblock In {\em Proceedings of the 18th ACM conference on Computer and
+  communications security}, pages 639--652. ACM, 2011.
 
 \bibitem{e}
 Apple Inc.
@@ -222,6 +249,12 @@ N~Saint.
 Fred~B Schneider.
 \newblock Least privilege and more.
 \newblock In {\em Computer Systems}, pages 253--258. Springer, 2004.
+
+\bibitem{flowchartimage}
+Mobile Siri.
+\newblock
+  \url{http://mobilesiri.com/how-to-request-android-runtime-permissions/},
+  2016.
 
 \bibitem{spreitzenbarth2013mobile}
 Michael Spreitzenbarth, Felix Freiling, Florian Echtler, Thomas Schreck, and
