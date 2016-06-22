@@ -100,6 +100,12 @@ Lucas Davi, Alexandra Dmitrienko, Ahmad-Reza Sadeghi, and Marcel Winandy.
 \newblock Privilege escalation attacks on android.
 \newblock In {\em Information Security}, pages 346--360. Springer, 2010.
 
+\bibitem{delhey2011general}
+Jan Delhey, Kenneth Newton, and Christian Welzel.
+\newblock How general is trust in “most people”? solving the radius of
+  trust problem.
+\newblock {\em American Sociological Review}, 76(5):786--807, 2011.
+
 \bibitem{k}
 Android Developers.
 \newblock Android developers: Dashboards.
@@ -159,6 +165,13 @@ Peter Gilbert, Byung-Gon Chun, Landon~P Cox, and Jaeyeon Jung.
 \newblock In {\em Proceedings of the second international workshop on Mobile
   cloud computing and services}, pages 21--26. ACM, 2011.
 
+\bibitem{golbeck2006generating}
+Jennifer Golbeck.
+\newblock Generating predictive movie recommendations from trust in social
+  networks.
+\newblock In {\em International Conference on Trust Management}, pages 93--104.
+  Springer, 2006.
+
 \bibitem{grace2011detecting}
 Michael Grace, Yajin Zhou, Zhi Wang, and Xuxian Jiang.
 \newblock Detecting capability leaks in android-based smartphones.
@@ -170,6 +183,12 @@ Michael~C Grace, Yajin Zhou, Zhi Wang, and Xuxian Jiang.
 \newblock Systematic detection of capability leaks in stock android
   smartphones.
 \newblock In {\em NDSS}, 2012.
+
+\bibitem{guha2004propagation}
+Ramanthan Guha, Ravi Kumar, Prabhakar Raghavan, and Andrew Tomkins.
+\newblock Propagation of trust and distrust.
+\newblock In {\em Proceedings of the 13th international conference on World
+  Wide Web}, pages 403--412. ACM, 2004.
 
 \bibitem{harbach2014using}
 Marian Harbach, Markus Hettig, Susanne Weber, and Matthew Smith.
@@ -191,6 +210,12 @@ Apple Inc.
 \newblock ios developer library-app distribution guide.
 \newblock
   \url{https://developer.apple.com/library/ios/documentation/IDEs/Conceptual/AppDistributionGuide/SubmittingYourApp/SubmittingYourApp.html}.
+
+\bibitem{kee1970conceptual}
+Herbert~W Kee and Robert~E Knox.
+\newblock Conceptual and methodological considerations in the study of trust
+  and suspicion.
+\newblock {\em Journal of Conflict Resolution}, pages 357--366, 1970.
 
 \bibitem{kelley2012conundrum}
 Patrick~Gage Kelley, Sunny Consolvo, Lorrie~Faith Cranor, Jaeyeon Jung, Norman
@@ -219,10 +244,21 @@ Jialiu Lin, Bin Liu, Norman Sadeh, and Jason~I Hong.
 \newblock In {\em Symposium On Usable Privacy and Security (SOUPS 2014)}, pages
   199--212, 2014.
 
+\bibitem{massa2004trust}
+Paolo Massa and Paolo Avesani.
+\newblock Trust-aware collaborative filtering for recommender systems.
+\newblock In {\em OTM Confederated International Conferences" On the Move to
+  Meaningful Internet Systems"}, pages 492--508. Springer, 2004.
+
 \bibitem{mcdaniel2012bloatware}
 Patrick McDaniel.
 \newblock Bloatware comes to the smartphone.
 \newblock {\em IEEE Security \& Privacy}, (4):85--87, 2012.
+
+\bibitem{mcknight1996meanings}
+D~Harrison McKnight and Norman~L Chervany.
+\newblock The meanings of trust.
+\newblock 1996.
 
 \bibitem{meshram2014survey}
 PD~Meshram and RC~Thool.
@@ -250,6 +286,18 @@ Helen Nissenbaum.
 \newblock Privacy as contextual integrity.
 \newblock {\em Wash. L. Rev.}, 79:119, 2004.
 
+\bibitem{ortega2012propagation}
+F~Javier Ortega, Jos{\'e}~A Troyano, Ferm{\'\i}N~L Cruz, Carlos~G Vallejo, and
+  Fernando Enr{\'\i}Quez.
+\newblock Propagation of trust and distrust for the detection of trolls in a
+  social network.
+\newblock {\em Computer Networks}, 56(12):2884--2895, 2012.
+
+\bibitem{page1999pagerank}
+Lawrence Page, Sergey Brin, Rajeev Motwani, and Terry Winograd.
+\newblock The pagerank citation ranking: bringing order to the web.
+\newblock 1999.
+
 \bibitem{w}
 A.~Russakovskii.
 \newblock Rovio explains why the sms permission was introduced in angry birds
@@ -273,6 +321,11 @@ N~Saint.
 Fred~B Schneider.
 \newblock Least privilege and more.
 \newblock In {\em Computer Systems}, pages 253--258. Springer, 2004.
+
+\bibitem{sherchan2013survey}
+Wanita Sherchan, Surya Nepal, and Cecile Paris.
+\newblock A survey of trust in social networks.
+\newblock {\em ACM Computing Surveys (CSUR)}, 45(4):47, 2013.
 
 \bibitem{flowchartimage}
 Mobile Siri.
@@ -330,6 +383,11 @@ Primal Wijesekera, Arjun Baokar, Ashkan Hosseini, Serge Egelman, David Wagner,
 \newblock In {\em 24th USENIX Security Symposium (USENIX Security 15)}, pages
   499--514, 2015.
 
+\bibitem{wu2006propagating}
+Baoning Wu, Vinay Goel, and Brian~D Davison.
+\newblock Propagating trust and distrust to demote web spam.
+\newblock {\em MTW}, 190, 2006.
+
 \bibitem{yang2014intentfuzzer}
 Kun Yang, Jianwei Zhuge, Yongke Wang, Lujue Zhou, and Haixin Duan.
 \newblock Intentfuzzer: detecting capability leaks of android applications.
@@ -360,5 +418,10 @@ Yajin Zhou, Zhi Wang, Wu~Zhou, and Xuxian Jiang.
 \newblock Hey, you, get off of my market: Detecting malicious apps in official
   and alternative android markets.
 \newblock In {\em NDSS}, 2012.
+
+\bibitem{ziegler2005propagation}
+Cai-Nicolas Ziegler and Georg Lausen.
+\newblock Propagation models for trust and distrust in social networks.
+\newblock {\em Information Systems Frontiers}, 7(4-5):337--358, 2005.
 
 \end{thebibliography}

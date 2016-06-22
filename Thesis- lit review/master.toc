@@ -36,11 +36,13 @@
 \contentsline {subsection}{\numberline {2.3.1}Facilitating Informed Decisions}{16}{subsection.2.3.1}
 \contentsline {subsection}{\numberline {2.3.2}Code Analysis to Curb Permission Creep}{17}{subsection.2.3.2}
 \contentsline {section}{\numberline {2.4}Transitivity of Trust}{17}{section.2.4}
-\contentsline {subsection}{\numberline {2.4.1}Decentralization of Trust}{18}{subsection.2.4.1}
-\contentsline {subsection}{\numberline {2.4.2}Application of Referral Trust in Other Systems}{18}{subsection.2.4.2}
-\contentsline {subsection}{\numberline {2.4.3}Trust in Peer Networks}{19}{subsection.2.4.3}
-\contentsline {subsection}{\numberline {2.4.4}Metrics in a Web of Trust}{19}{subsection.2.4.4}
-\contentsline {chapter}{Appendix 01 - Normal and Dangerous Permissions}{20}{chapter*.9}
-\contentsline {section}{Normal Permissions}{20}{section*.10}
-\contentsline {section}{Dangerous Permissions}{20}{section*.10}
-\contentsline {chapter}{References}{22}{section*.12}
+\contentsline {subsection}{\numberline {2.4.1}Defining "Trust"}{18}{subsection.2.4.1}
+\contentsline {subsection}{\numberline {2.4.2}Definition of "Trust" in Computer Science}{18}{subsection.2.4.2}
+\contentsline {subsection}{\numberline {2.4.3}Decentralization of Trust}{19}{subsection.2.4.3}
+\contentsline {subsection}{\numberline {2.4.4}Application of Referral Trust in Other Systems}{19}{subsection.2.4.4}
+\contentsline {subsection}{\numberline {2.4.5}Trust in Peer Networks}{20}{subsection.2.4.5}
+\contentsline {subsection}{\numberline {2.4.6}Example: PageRank as a Web of Trust}{20}{subsection.2.4.6}
+\contentsline {chapter}{Appendix 01 - Normal and Dangerous Permissions}{22}{chapter*.9}
+\contentsline {section}{Normal Permissions}{22}{section*.10}
+\contentsline {section}{Dangerous Permissions}{22}{section*.10}
+\contentsline {chapter}{References}{24}{section*.12}

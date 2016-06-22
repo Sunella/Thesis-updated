@@ -93,6 +93,23 @@ Applications requesting unecessary permissions and causing permission creep can 
 \section{Transitivity of Trust}
 Through this research we will attempt to create a web of trust for users on the Android platform. To our knowledge there are no existing research following this particular approach, however there are research that have been conducted applying PGP models and web of trust to situations which require reputation based trust assessment and user driven models of privacy protection. 
 
+\subsection{Defining "Trust"}
+Researchers have different, sometimes contrasting definitions of "trust". McKnight et al. attempt to overcome issues in research in this domain that are caused due to conflicting definitions and a general lack of consensus about what "trust" entails. Comparing trust studies without a common definition is problematic, and the researchers have proposed two typologies for trust; a classification system for trust and definitions of six trust types to form a common model\cite{mcknight1996meanings}. They define "Trusting Intention" corresponding to five factors:
+\begin{itemize}
+\item The prospect of negative consequences associated with trust
+\item Measure of dependence on another entity
+\item Feelings of security towards peers 
+\item Context of trust and situation-specific factors
+\item Willingness to depend on another entity based on control
+\end{itemize}
+In our research we will be focusing on the dependence of trust on the context, and unexpectedness of permission requests in general. According to McKnight et al., complete trust is not possible in the human domain at once. Over time, a mental model of specific situations in which a particular entity can be trusted will be developed. This is applicable in the domain of Android permissions as well, as we will attempt to determine a method to value the trust accorded to peers by a user. Situational trust is defined as "the extent to which one intends to depend on a non-specific other party in a given situation", and research has suggested that this is stronger when the gain from trusting is numerically greater than the associated risk\cite{kee1970conceptual}. They suggest that situational trust is an intentional construct and relates to specific situations rather than generalizations. 
+\smallskip
+
+Delhey et al. attempt to solve the radius of trst problem; how wide a circle of peers should be to incite trust, defining between "particular" and "general" trust\cite{delhey2011general}. They define trust circles for countries from different world regions, based on common factors and identify that in that situation the trust correlates to the product of the level of trust and the radius of trust, and suggest that research should discontinue using unspecified trust as a measure of general trust.
+
+\subsection{Definition of "Trust" in Computer Science}
+Serchan et al. have classified the concept of "trust" as it applies to the field of computer science, into two categories; user trust and system trust\cite{sherchan2013survey}. "User" trust is defined as being based on the evolution of a relationship based on the strength of user interactions through time, implying that trust is personalized. This is further sub-categorized into direct trust, where trust is based on direct interactions; and recommender trust, where trust is gained through evaluating experiences of peers with the entity in question. In contrast, "system" trust is derived from the security domain, and is defined as "the expectation that a device or system will faithfully behave in a particular manner to fulfill its intended purpose". In our research, both direct and recommender trust will be needed to evaluate users, and the users themselves have to have a measure of trust in the system in order for their recommendations of permissions to be valid. 
+
 \subsection{Decentralization of Trust}
 Donvan et al. have conducted a comprehensive survey on trust models and their applications to the semantic web\cite{artz2007survey}. They have categorized models of trust proposed in previous research into 4 sections:
 \begin{enumerate}
@@ -107,6 +124,39 @@ We will be focusing on research that have been conducted on reputation-based mod
 Research has been conducted into decentralization for reputation management in distributed systems, where peer referrals work to determine the reputation of an entity. Decentralization is viewed as being better than centralization in trust models for distributed systems which need to take human factors into consideration since "with decentralization, each rational entity will be allowed to take responsibility for its own fate, which is a basic human right"\cite{abdul1997using}. Sun et al. propose that in distributed mobile ad hoc networks, trustworthiness plays a role in predicting of and protecting against three types of malicious attacks and decentralized trust models can be used to verify authenticity of nodes rather than a central monitoring system\cite{sun2008defense}.Combining reputation information from another peer, referred to as a "witness"\cite{yu2000social}\cite{yu2002evidential}, to make decisions by distributing reputation information has been followed in several research with decentralized reputation management, and approaches to combine information from an individual and other "witnesses" as a base for decision making in multi-agent systems has been discussed\cite{sabater2002reputation}. Research into computing degrees of trust in case other entities in the network being compromised result in false or conflicting information and application of trust to the peers themselves has been conducted, recommending methods to solve such conflicts in open systems\cite{beth1994valuation}.
 
 \subsection{Trust in Peer Networks}
+Trust networks have been used successfully to predict movie preferences of users from social network relationship data\cite{golbeck2006generating}. Golbeck et al. have defined trust in a person as "a commitment to an action based on a belief that the future actions of the person will lead to a good outcome", where the action and commitment does not have to be significant. The research assumes that user A trusts user B regarding user B is she chooses to act on a recommendation of user B. Similarly in our research we will be accepting a successful exchange of trust if a user chooses to follow peer recommendations on granting permissions to an application. 
+\smallskip
 
-\subsection{Metrics in a Web of Trust}
+Massa et al. have researched collaborative filtering on recommended systems based on a trust network\cite{massa2004trust}. They use a nearest neighbor based approach to allow users to find resources based on the experience and opinions of their nearest neighbors. The issue of quality assessment of the web of trust that has been used, is solved through computing the reputation of users through trust propagation and performing similarity assessment to calculate number of successful recommendations and through that, evaluating the quality. An alternative method of letting users rate the feedback provided through the web of trust and using that rating as a measure of quality has also been suggested and is used in systems that use content filtering algorithms developed for online retailers such as Amazon and Ebay to recommend products to users, and has been proven successful in those scenarios. However it is questionable whether this method would be successful in rating application privacy decisions, as users themselves would not have prior expectations of privacy violations and would react differently than to a product recommendation. 
+\smallskip
+
+Methods to allocate a value of "distrust" to a user by reversing the trust value or allocating a negative value have been researched previously, and comparisons have been made highlighting differences and similarities in the propagation of trust and distrust\cite{guha2004propagation}. Distrust propogation has been applied to areas including web spam detection\cite{wu2006propagating}, detection of bullying and "trolls" in social networks\cite{ortega2012propagation} and modeling distrust among connections in a social network\cite{ziegler2005propagation}. However, the implication of distrust among users will not be considered in our research at this stage. 
+
+
+\subsection{Example: PageRank as a Web of Trust}
+Google's Page Rank algorithm is another successful and popularly used implementation of the web of trust\cite{page1999pagerank}. They define the web as a network of content without a centralized quality control methodology, and the authority of every page is inferred by the PageRank algorithm by examining the structure of the network. For example the global rank of a given page depends on the number and quality of incoming links. However PageRank is based on the link and not on a positive or negative association (i.e. if a reviewer negatively reviewed a product page and included a link to the page in question, then the PageRank algorithm would still count it as a valid incoming link when calculating popularity of a page). 
+\smallskip
+
+Applying the concept used by PageRank to a user based network can be possible, with trust values that users cast on other users being used to predict trustworthiness of previously unknown users. Since trust is subjective(considering a user A, trust rating given to A by two different users may be entirely different) and asymmetric(A's rating for B is not equal to B's rating for A), the complete trust network should be considered when predicting trust among two individual users. Massa et al. divide trust into local and global metrics, and cite PageRank as a global metric since it approximates how the entire community as a whole rates the user in question\cite{massa2004trust}. Local metrics, which would have to be used in our implementation, are computationally more expensive, since they must be computed for each user separately. 
+
+%\subsection{Social Trust Evaluation Models}
+%Serchan et al. perform a survey of literature and categorize %approaches to compute trust into three categories\cite{sherchan2013survey};
+%\begin{itemize}
+%\item Network structure/graph-based trust models
+%\item Interaction based trust models
+%\item Hybrid trust models
+%\end{itemize}
+
+%\subsubsection{Network Structure\Graph based trust models}
+%Research has shown that the number of connections in a network is proportional to the level of trust, since more information is received from members with a higher in-degree on a typical social network structure\cite{buskens1998social}. Models that follow this structure are usually based on a web of trust, or FOAF)Friend-Of-A-Friend) network. 
+
+%\subsubsection{Interaction based trust models}
+
+%\subsubsection{Hybrid trust models}
+
+
+
+
+
+
 
